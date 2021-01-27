@@ -4,30 +4,18 @@
     padding: 0;
     box-sizing: border-box
 }
-a{text-decoration: none;}
-ul>li{list-style: none;}
-.h100{height: 100%;}
-.w100{width: 100%;}
-.btn{
-    @include btn_def;
-    &:hover {
-        color: #fff;
-        background-color: $google_blue;
-        border-color: $google_blue;
-    }
-}
-.btn-outline {
-    @include btn_outline_mx;
-}
-
+.flex_center{@include center_flex}
 .d_flex{
     display: flex;
 }
 
 body {
+    width: $vw;
+    margin: auto;
     font-family: $Roboto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     color: $primary_font_color;
 }
 

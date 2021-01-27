@@ -1,6 +1,5 @@
 .hero{
     padding: 67px 0;
-    width: $vw;
     .hero_img {
         width: 50%;
         img{width: 100%;}
@@ -20,15 +19,15 @@
         div.buttons{padding: 35px 0;}
         .btn.blue{
             @include btn_def;
-            border-color: $google_blue;
-            background-color: $google_blue;
+            border-color: $button_blue;
+            background-color: $button_blue;
             color: white;
             font-size: $font_size_nav;
             padding: 6px 10px ;
             &:hover {
-                color: $google_blue;
+                color: $button_blue;
                 background-color: white;
-                border: 1px solid $google_blue;
+                border: 1px solid $button_blue;
             }
         }
     }

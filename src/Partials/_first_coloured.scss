@@ -1,0 +1,19 @@
+.first_coloured {
+    padding-top: 67px;
+    background-color: $main_color_new;
+    height: 100%;
+    width: 100%;
+    .not{
+        width: 100%;
+        .col-4 {
+            span{
+                display: block;
+                text-align: center;
+            }
+            div{
+                @include center_flex;
+                img{height:105px;}
+        }
+        }
+    }
+}

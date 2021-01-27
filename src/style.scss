@@ -1,0 +1,13 @@
+// node-sass-teambit
+//  Attenzione ! il codice va messo nella cartella della repo come mostrato in classe stamattina,
+// non create dentro alla repo un'altra cartella 'my-app'.
+// Istruzioni: riproducete il layout responsive come da screenshots usando SASS. 
+// Le media query fino a 550px per i dispositivi mobli,
+// tra 550 e 998 per tablet e oltre 998 per desktop. 
+// Ricordate: L'importane non é complere tutto il layout, anche se ne completate una parte basta che la fate bene e usate quanto studiato in classe di SASS.
+// Bonus: Fate apparire la navbar sticky quando l'utente scrolla in giu nella pagina e fatela scomparire quando torna nell'header del sito
+@import "Partials/variable";
+@import "Partials/mixin";
+@import "Partials/common";
+@import "Partials/desktop1170";
+@import "Partials/header";

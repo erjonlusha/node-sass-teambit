@@ -1,0 +1,33 @@
+// dove scriveremo tutte quelle regole comuni
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+a{text-decoration: none;}
+ul>li{list-style: none;}
+.h100{height: 100%;}
+.w100{width: 100%;}
+.btn{
+    @include btn_def;
+    &:hover {
+        color: #fff;
+        background-color: $google_blue;
+        border-color: $google_blue;
+    }
+}
+.btn-outline {
+    @include btn_outline_mx;
+}
+
+.d_flex{
+    display: flex;
+}
+
+body {
+    font-family: $Roboto;
+    display: flex;
+    justify-content: center;
+    color: $primary_font_color;
+}
+

@@ -1,0 +1,27 @@
+@import "Partials/hero";
+nav {
+    width: $vw;
+    justify-content: center;
+    font-size: $font_size_nav;
+    font-weight: $font_weight_nav;
+
+    .menu {
+        line-height: 1.5rem;
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: 2px solid gray;
+        padding: 20px 0px;
+        .logo{height: 30px;}
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+}

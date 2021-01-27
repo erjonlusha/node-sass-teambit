@@ -1,0 +1,31 @@
+@mixin btn_def{
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    border: 1px solid $google_blue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 1.5px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    img {
+        width: 18px;
+        margin-bottom: 3px;
+        margin-right: 5px
+    }
+    
+    span {
+        vertical-align: text-top;
+    }
+}
+    
+
+@mixin btn_outline_mx {
+    color: $google_blue;
+    background-color: transparent;
+    background-image: none;
+    border-color: $google_blue;
+}
